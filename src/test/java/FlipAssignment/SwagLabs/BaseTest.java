@@ -28,12 +28,12 @@ public class BaseTest {
 		// String userLocked = "locked_out_user";
 		// String userPro = "problem_user";
 		String password = "secret_sauce";
-		
-		//Input Username
+
+		// Input Username
 		driver.findElement(By.xpath("//android.widget.EditText[@content-desc=\"test-Username\"]")).click();
 		driver.findElement(By.xpath("//android.widget.EditText[@content-desc=\"test-Username\"]")).sendKeys(userStd);
-		
-		//Input Password
+
+		// Input Password
 		driver.findElement(By.xpath("//android.widget.EditText[@content-desc=\"test-Password\"]")).click();
 		driver.findElement(By.xpath("//android.widget.EditText[@content-desc=\"test-Password\"]")).sendKeys(password);
 
